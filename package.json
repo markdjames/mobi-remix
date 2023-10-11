@@ -10,7 +10,8 @@
     "typecheck": "tsc"
   },
   "ampt": {
-    "app": "remix"
+    "app": "mobi-remix",
+    "org": "markdjames649782"
   },
   "dependencies": {
     "@ampt/remix": "^1.0.0",
