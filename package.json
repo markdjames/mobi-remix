@@ -1,0 +1,39 @@
+{
+  "private": true,
+  "name": "ampt-remix-template",
+  "sideEffects": false,
+  "main": "server.mjs",
+  "scripts": {
+    "ampt:build": "remix build",
+    "ampt:dev": "remix dev",
+    "start": "remix-serve build",
+    "typecheck": "tsc"
+  },
+  "ampt": {
+    "app": "remix"
+  },
+  "dependencies": {
+    "@ampt/remix": "^1.0.0",
+    "@remix-run/css-bundle": "^1.19.3",
+    "@remix-run/node": "^1.19.3",
+    "@remix-run/react": "^1.19.3",
+    "@remix-run/serve": "^1.19.3",
+    "isbot": "^3.6.8"
+  },
+  "devDependencies": {
+    "@remix-run/dev": "^1.19.3",
+    "@remix-run/eslint-config": "^1.19.3",
+    "@types/react": "^18.0.35",
+    "@types/react-dom": "^18.0.11",
+    "eslint": "^8.38.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^5.0.4"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "files": [
+    "*"
+  ]
+}
